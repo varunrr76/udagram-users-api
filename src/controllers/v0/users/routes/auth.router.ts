@@ -6,6 +6,7 @@ import * as bcrypt from 'bcrypt';
 import * as jwt from 'jsonwebtoken';
 
 import * as EmailValidator from 'email-validator';
+import * as c from '../../../../config/config';
 import { config } from 'bluebird';
 
 import { requireAuth } from '../../../../lib/auth.lib';
