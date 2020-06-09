@@ -8,7 +8,7 @@ import * as jwt from 'jsonwebtoken';
 import * as EmailValidator from 'email-validator';
 import { config } from 'bluebird';
 
-import { requireAuth } from '../../lib/auth.lib';
+import { requireAuth } from '../../../../lib/auth.lib';
 
 const router: Router = Router();
 
